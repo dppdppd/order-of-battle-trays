@@ -3,12 +3,12 @@ include <oobt_lib.scad>
 
 
 SIMPLE_TEST = [
-	[TRAY_KV,
+    [TRAY_KV,
         [TITLE_STR, "Army of the Title"],
         [TRAY_DIMENSIONS_XY, [100,250]],
 
-		[BLOCK_KV,
-           // [DISABLED_B, true],
+        [BLOCK_KV,
+        // [DISABLED_B, true],
             [TITLE_STR, "I Corps"],
             [POSITION_XY, [0,1]],
             
@@ -26,11 +26,11 @@ SIMPLE_TEST = [
 
 
 TEXT_TEST = [
-	[TRAY_KV,
+    [TRAY_KV,
         [TITLE_STR, "Army of the Title"],
         [TRAY_DIMENSIONS_XY, [100,250]],
 
-		[BLOCK_KV,
+        [BLOCK_KV,
            // [DISABLED_B, true],
             [TITLE_STR, "I Corps"],
             [POSITION_XY, [0,1]],
@@ -51,11 +51,11 @@ TEXT_TEST = [
 
 
 FLOW_TEST = [
-	[TRAY_KV,
+    [TRAY_KV,
         [TITLE_STR, "Army of the Title"],
         [TRAY_DIMENSIONS_XY, [200,250]],
 
-		[BLOCK_KV,
+        [BLOCK_KV,
             [FLOW_DIRECTION_STR, FLOW_DOWN],
            // [DISABLED_B, true],
             [TITLE_STR, "I Corps"],

@@ -119,14 +119,8 @@ module Make( table = DATA )
         for( t = [0:num_trays-1])
         {
             translate([ 300*t,0,0])
-            MakeTray( table, t, 2 );
-        }
-
-        for( t = [0:num_trays-1])
-        {
-            translate([ 300*t,-300,0])
-            MakeTray( table, t, 1 );
-        }        
+            MakeTray( table, t, make_layer );
+        }       
     }
 
     else 

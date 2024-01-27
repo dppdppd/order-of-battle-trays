@@ -1,7 +1,7 @@
 
 include <../oobt_lib.scad>
 
-make_tray = 0;
+make_tray = 1;
 make_layer = 0;
 
 default_tray_dimensions_xy = [250, 230];
